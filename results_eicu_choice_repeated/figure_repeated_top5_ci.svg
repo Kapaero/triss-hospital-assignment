@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360">
+<rect width="100%" height="100%" fill="white"/>
+<text x="24" y="24" font-family="Arial" font-size="18" font-weight="700">Repeated splits: Top-5 accuracy with 95% CI</text>
+<line x1="260.0" y1="30" x2="260.0" y2="325" stroke="#e0e0e0"/>
+<text x="250.0" y="348" font-family="Arial" font-size="12">0.0</text>
+<line x1="372.0" y1="30" x2="372.0" y2="325" stroke="#e0e0e0"/>
+<text x="362.0" y="348" font-family="Arial" font-size="12">0.2</text>
+<line x1="484.0" y1="30" x2="484.0" y2="325" stroke="#e0e0e0"/>
+<text x="474.0" y="348" font-family="Arial" font-size="12">0.4</text>
+<line x1="596.0" y1="30" x2="596.0" y2="325" stroke="#e0e0e0"/>
+<text x="586.0" y="348" font-family="Arial" font-size="12">0.6</text>
+<line x1="708.0" y1="30" x2="708.0" y2="325" stroke="#e0e0e0"/>
+<text x="698.0" y="348" font-family="Arial" font-size="12">0.8</text>
+<line x1="820.0" y1="30" x2="820.0" y2="325" stroke="#e0e0e0"/>
+<text x="810.0" y="348" font-family="Arial" font-size="12">1.0</text>
+<text x="24" y="45" font-family="Arial" font-size="12">baseline_quality_capacity</text>
+<rect x="260" y="37" width="13.2" height="12" fill="#3b77bd"/>
+<line x1="272.9" y1="43" x2="273.4" y2="43" stroke="#222" stroke-width="1.5"/>
+<line x1="273.2" y1="35" x2="273.2" y2="51" stroke="#222" stroke-width="1"/>
+<text x="281.2" y="47" font-family="Arial" font-size="11">0.023</text>
+<text x="24" y="75" font-family="Arial" font-size="12">baseline_popularity</text>
+<rect x="260" y="67" width="32.5" height="12" fill="#3b77bd"/>
+<line x1="292.5" y1="73" x2="292.5" y2="73" stroke="#222" stroke-width="1.5"/>
+<line x1="292.5" y1="65" x2="292.5" y2="81" stroke="#222" stroke-width="1"/>
+<text x="300.5" y="77" font-family="Arial" font-size="11">0.058</text>
+<text x="24" y="105" font-family="Arial" font-size="12">baseline_profile</text>
+<rect x="260" y="97" width="93.8" height="12" fill="#3b77bd"/>
+<line x1="352.0" y1="103" x2="355.7" y2="103" stroke="#222" stroke-width="1.5"/>
+<line x1="353.8" y1="95" x2="353.8" y2="111" stroke="#222" stroke-width="1"/>
+<text x="361.8" y="107" font-family="Arial" font-size="11">0.168</text>
+<text x="24" y="135" font-family="Arial" font-size="12">baseline_simple_rule</text>
+<rect x="260" y="127" width="145.4" height="12" fill="#3b77bd"/>
+<line x1="396.9" y1="133" x2="413.9" y2="133" stroke="#222" stroke-width="1.5"/>
+<line x1="405.4" y1="125" x2="405.4" y2="141" stroke="#222" stroke-width="1"/>
+<text x="413.4" y="137" font-family="Arial" font-size="11">0.260</text>
+<text x="24" y="165" font-family="Arial" font-size="12">baseline_nearest_synthetic</text>
+<rect x="260" y="157" width="180.4" height="12" fill="#3b77bd"/>
+<line x1="427.8" y1="163" x2="453.1" y2="163" stroke="#222" stroke-width="1.5"/>
+<line x1="440.4" y1="155" x2="440.4" y2="171" stroke="#222" stroke-width="1"/>
+<text x="448.4" y="167" font-family="Arial" font-size="11">0.322</text>
+<text x="24" y="195" font-family="Arial" font-size="12">pair_mlp_hospital_bias</text>
+<rect x="260" y="187" width="281.9" height="12" fill="#3b77bd"/>
+<line x1="532.2" y1="193" x2="551.6" y2="193" stroke="#222" stroke-width="1.5"/>
+<line x1="541.9" y1="185" x2="541.9" y2="201" stroke="#222" stroke-width="1"/>
+<text x="549.9" y="197" font-family="Arial" font-size="11">0.503</text>
+<text x="24" y="225" font-family="Arial" font-size="12">temporal_lstm_choice</text>
+<rect x="260" y="217" width="285.6" height="12" fill="#3b77bd"/>
+<line x1="538.3" y1="223" x2="552.9" y2="223" stroke="#222" stroke-width="1.5"/>
+<line x1="545.6" y1="215" x2="545.6" y2="231" stroke="#222" stroke-width="1"/>
+<text x="553.6" y="227" font-family="Arial" font-size="11">0.510</text>
+<text x="24" y="255" font-family="Arial" font-size="12">pair_mlp</text>
+<rect x="260" y="247" width="286.4" height="12" fill="#3b77bd"/>
+<line x1="538.0" y1="253" x2="554.7" y2="253" stroke="#222" stroke-width="1.5"/>
+<line x1="546.4" y1="245" x2="546.4" y2="261" stroke="#222" stroke-width="1"/>
+<text x="554.4" y="257" font-family="Arial" font-size="11">0.511</text>
+<text x="24" y="285" font-family="Arial" font-size="12">conditional_logit</text>
+<rect x="260" y="277" width="289.0" height="12" fill="#3b77bd"/>
+<line x1="541.7" y1="283" x2="556.3" y2="283" stroke="#222" stroke-width="1.5"/>
+<line x1="549.0" y1="275" x2="549.0" y2="291" stroke="#222" stroke-width="1"/>
+<text x="557.0" y="287" font-family="Arial" font-size="11">0.516</text>
+</svg>

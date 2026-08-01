@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="498" viewBox="0 0 1180 498">
+<rect width="100%" height="100%" fill="white"/>
+<text x="28.0" y="32.0" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#222" text-anchor="start">Actual hospital among the top 5 candidates</text>
+<text x="28.0" y="56.0" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#555" text-anchor="start">Mean over 5 repeated train/test splits; horizontal lines show the 95% confidence interval</text>
+<line x1="340.0" y1="60.0" x2="340.0" y2="444.0" stroke="#e1e1e1" stroke-width="1"/>
+<text x="340.0" y="470.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#555" text-anchor="middle">0.00</text>
+<line x1="470.0" y1="60.0" x2="470.0" y2="444.0" stroke="#e1e1e1" stroke-width="1"/>
+<text x="470.0" y="470.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#555" text-anchor="middle">0.12</text>
+<line x1="600.0" y1="60.0" x2="600.0" y2="444.0" stroke="#e1e1e1" stroke-width="1"/>
+<text x="600.0" y="470.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#555" text-anchor="middle">0.24</text>
+<line x1="730.0" y1="60.0" x2="730.0" y2="444.0" stroke="#e1e1e1" stroke-width="1"/>
+<text x="730.0" y="470.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#555" text-anchor="middle">0.36</text>
+<line x1="860.0" y1="60.0" x2="860.0" y2="444.0" stroke="#e1e1e1" stroke-width="1"/>
+<text x="860.0" y="470.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#555" text-anchor="middle">0.48</text>
+<line x1="990.0" y1="60.0" x2="990.0" y2="444.0" stroke="#e1e1e1" stroke-width="1"/>
+<text x="990.0" y="470.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#555" text-anchor="middle">0.60</text>
+<text x="665.0" y="490.0" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#333" text-anchor="middle">Share of cases</text>
+<text x="28.0" y="95.0" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">MLP</text>
+<rect x="340.0" y="78.0" width="554.0" height="17" rx="2" fill="#c74b50" opacity="0.88"/>
+<line x1="877.9" y1="86.5" x2="910.1" y2="86.5" stroke="#111" stroke-width="1.5"/>
+<line x1="894.0" y1="75.0" x2="894.0" y2="98.0" stroke="#111" stroke-width="1"/>
+<text x="902.0" y="92.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#333" text-anchor="start">0.511 ± 0.015</text>
+<text x="28.0" y="137.0" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">MLP + hospital bias</text>
+<rect x="340.0" y="120.0" width="545.4" height="17" rx="2" fill="#7b59c0" opacity="0.88"/>
+<line x1="866.7" y1="128.5" x2="904.1" y2="128.5" stroke="#111" stroke-width="1.5"/>
+<line x1="885.4" y1="117.0" x2="885.4" y2="140.0" stroke="#111" stroke-width="1"/>
+<text x="893.4" y="134.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#333" text-anchor="start">0.503 ± 0.017</text>
+<text x="28.0" y="179.0" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">LSTM</text>
+<rect x="340.0" y="162.0" width="552.5" height="17" rx="2" fill="#208b68" opacity="0.88"/>
+<line x1="878.3" y1="170.5" x2="906.7" y2="170.5" stroke="#111" stroke-width="1.5"/>
+<line x1="892.5" y1="159.0" x2="892.5" y2="182.0" stroke="#111" stroke-width="1"/>
+<text x="900.5" y="176.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#333" text-anchor="start">0.510 ± 0.013</text>
+<text x="28.0" y="221.0" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Conditional logit model</text>
+<rect x="340.0" y="204.0" width="559.1" height="17" rx="2" fill="#2d6cdf" opacity="0.88"/>
+<line x1="884.9" y1="212.5" x2="913.3" y2="212.5" stroke="#111" stroke-width="1.5"/>
+<line x1="899.1" y1="201.0" x2="899.1" y2="224.0" stroke="#111" stroke-width="1"/>
+<text x="907.1" y="218.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#333" text-anchor="start">0.516 ± 0.013</text>
+<text x="28.0" y="263.0" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Nearest hospital</text>
+<rect x="340.0" y="246.0" width="349.0" height="17" rx="2" fill="#d28a1e" opacity="0.88"/>
+<line x1="664.5" y1="254.5" x2="713.5" y2="254.5" stroke="#111" stroke-width="1.5"/>
+<line x1="689.0" y1="243.0" x2="689.0" y2="266.0" stroke="#111" stroke-width="1"/>
+<text x="697.0" y="260.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#333" text-anchor="start">0.322 ± 0.023</text>
+<text x="28.0" y="305.0" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Suitability rule</text>
+<rect x="340.0" y="288.0" width="281.3" height="17" rx="2" fill="#777777" opacity="0.88"/>
+<line x1="604.9" y1="296.5" x2="637.7" y2="296.5" stroke="#111" stroke-width="1.5"/>
+<line x1="621.3" y1="285.0" x2="621.3" y2="308.0" stroke="#111" stroke-width="1"/>
+<text x="629.3" y="302.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#333" text-anchor="start">0.260 ± 0.015</text>
+<text x="28.0" y="347.0" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Profile only</text>
+<rect x="340.0" y="330.0" width="181.5" height="17" rx="2" fill="#a06b35" opacity="0.88"/>
+<line x1="518.0" y1="338.5" x2="525.1" y2="338.5" stroke="#111" stroke-width="1.5"/>
+<line x1="521.5" y1="327.0" x2="521.5" y2="350.0" stroke="#111" stroke-width="1"/>
+<text x="529.5" y="344.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#333" text-anchor="start">0.168 ± 0.003</text>
+<text x="28.0" y="389.0" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Hospital popularity</text>
+<rect x="340.0" y="372.0" width="62.9" height="17" rx="2" fill="#8d8d8d" opacity="0.88"/>
+<line x1="402.9" y1="380.5" x2="402.9" y2="380.5" stroke="#111" stroke-width="1.5"/>
+<line x1="402.9" y1="369.0" x2="402.9" y2="392.0" stroke="#111" stroke-width="1"/>
+<text x="410.9" y="386.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#333" text-anchor="start">0.058 ± 0.000</text>
+<text x="28.0" y="431.0" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Readiness and capacity</text>
+<rect x="340.0" y="414.0" width="25.4" height="17" rx="2" fill="#b0b0b0" opacity="0.88"/>
+<line x1="364.9" y1="422.5" x2="366.0" y2="422.5" stroke="#111" stroke-width="1.5"/>
+<line x1="365.4" y1="411.0" x2="365.4" y2="434.0" stroke="#111" stroke-width="1"/>
+<text x="373.4" y="428.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#333" text-anchor="start">0.023 ± 0.001</text>
+</svg>

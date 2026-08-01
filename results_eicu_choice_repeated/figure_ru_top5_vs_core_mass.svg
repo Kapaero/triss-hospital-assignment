@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+<rect width="100%" height="100%" fill="white"/>
+<text x="28.0" y="32.0" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#222" text-anchor="start">Two different quality measures for the routing list</text>
+<text x="28.0" y="56.0" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#555" text-anchor="start">Top-5 shows agreement with the historical choice; core mass shows how concentrated the probability is on acceptable hospitals</text>
+<rect x="92" y="70" width="650" height="450" fill="#fbfbfb" stroke="#d0d0d0"/>
+<line x1="92.0" y1="70" x2="92.0" y2="520" stroke="#e6e6e6"/>
+<text x="92.0" y="542.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#555" text-anchor="middle">0.0</text>
+<line x1="200.3" y1="70" x2="200.3" y2="520" stroke="#e6e6e6"/>
+<text x="200.3" y="542.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#555" text-anchor="middle">0.1</text>
+<line x1="308.7" y1="70" x2="308.7" y2="520" stroke="#e6e6e6"/>
+<text x="308.7" y="542.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#555" text-anchor="middle">0.2</text>
+<line x1="417.0" y1="70" x2="417.0" y2="520" stroke="#e6e6e6"/>
+<text x="417.0" y="542.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#555" text-anchor="middle">0.3</text>
+<line x1="525.3" y1="70" x2="525.3" y2="520" stroke="#e6e6e6"/>
+<text x="525.3" y="542.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#555" text-anchor="middle">0.4</text>
+<line x1="633.7" y1="70" x2="633.7" y2="520" stroke="#e6e6e6"/>
+<text x="633.7" y="542.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#555" text-anchor="middle">0.5</text>
+<line x1="742.0" y1="70" x2="742.0" y2="520" stroke="#e6e6e6"/>
+<text x="742.0" y="542.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#555" text-anchor="middle">0.6</text>
+<line x1="92" y1="520.0" x2="742" y2="520.0" stroke="#e6e6e6"/>
+<text x="78.0" y="524.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#555" text-anchor="end">0.0</text>
+<line x1="92" y1="445.0" x2="742" y2="445.0" stroke="#e6e6e6"/>
+<text x="78.0" y="449.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#555" text-anchor="end">0.1</text>
+<line x1="92" y1="370.0" x2="742" y2="370.0" stroke="#e6e6e6"/>
+<text x="78.0" y="374.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#555" text-anchor="end">0.2</text>
+<line x1="92" y1="295.0" x2="742" y2="295.0" stroke="#e6e6e6"/>
+<text x="78.0" y="299.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#555" text-anchor="end">0.3</text>
+<line x1="92" y1="220.0" x2="742" y2="220.0" stroke="#e6e6e6"/>
+<text x="78.0" y="224.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#555" text-anchor="end">0.4</text>
+<line x1="92" y1="145.0" x2="742" y2="145.0" stroke="#e6e6e6"/>
+<text x="78.0" y="149.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#555" text-anchor="end">0.5</text>
+<line x1="92" y1="70.0" x2="742" y2="70.0" stroke="#e6e6e6"/>
+<text x="78.0" y="74.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#555" text-anchor="end">0.6</text>
+<circle cx="646.0" cy="196.2" r="6" fill="#c74b50" stroke="#222" stroke-width="0.7"/>
+<text x="655.0" y="189.2" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#222" text-anchor="start">MLP</text>
+<circle cx="637.4" cy="198.2" r="6" fill="#7b59c0" stroke="#222" stroke-width="0.7"/>
+<text x="646.4" y="191.2" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#222" text-anchor="start">MLP + hospital bias</text>
+<circle cx="644.5" cy="220.7" r="6" fill="#208b68" stroke="#222" stroke-width="0.7"/>
+<text x="653.5" y="213.7" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#222" text-anchor="start">LSTM</text>
+<circle cx="651.1" cy="229.4" r="6" fill="#2d6cdf" stroke="#222" stroke-width="0.7"/>
+<text x="660.1" y="222.4" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#222" text-anchor="start">Conditional logit model</text>
+<circle cx="441.0" cy="435.6" r="6" fill="#d28a1e" stroke="#222" stroke-width="0.7"/>
+<circle cx="373.3" cy="483.1" r="6" fill="#777777" stroke="#222" stroke-width="0.7"/>
+<circle cx="273.5" cy="485.7" r="6" fill="#a06b35" stroke="#222" stroke-width="0.7"/>
+<circle cx="154.9" cy="491.4" r="6" fill="#8d8d8d" stroke="#222" stroke-width="0.7"/>
+<circle cx="117.4" cy="492.3" r="6" fill="#b0b0b0" stroke="#222" stroke-width="0.7"/>
+<text x="417.0" y="568.0" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="middle">Top-5: actual hospital is among the top 5</text>
+<text transform="rotate(-90 20,295.0)" x="20.0" y="295.0" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="middle">Probability mass in the acceptable core</text>
+<circle cx="760" cy="110" r="5" fill="#c74b50"/>
+<text x="772.0" y="114.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#333" text-anchor="start">MLP</text>
+<circle cx="760" cy="138" r="5" fill="#7b59c0"/>
+<text x="772.0" y="142.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#333" text-anchor="start">MLP + hospital bias</text>
+<circle cx="760" cy="166" r="5" fill="#208b68"/>
+<text x="772.0" y="170.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#333" text-anchor="start">LSTM</text>
+<circle cx="760" cy="194" r="5" fill="#2d6cdf"/>
+<text x="772.0" y="198.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#333" text-anchor="start">Conditional logit model</text>
+<circle cx="760" cy="222" r="5" fill="#d28a1e"/>
+<text x="772.0" y="226.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#333" text-anchor="start">Nearest hospital</text>
+<circle cx="760" cy="250" r="5" fill="#777777"/>
+<text x="772.0" y="254.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#333" text-anchor="start">Suitability rule</text>
+<circle cx="760" cy="278" r="5" fill="#a06b35"/>
+<text x="772.0" y="282.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#333" text-anchor="start">Profile only</text>
+<circle cx="760" cy="306" r="5" fill="#8d8d8d"/>
+<text x="772.0" y="310.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#333" text-anchor="start">Hospital popularity</text>
+<circle cx="760" cy="334" r="5" fill="#b0b0b0"/>
+<text x="772.0" y="338.0" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#333" text-anchor="start">Readiness and capacity</text>
+</svg>

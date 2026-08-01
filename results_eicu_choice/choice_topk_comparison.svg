@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="380" viewBox="0 0 920 380">
+<rect width="100%" height="100%" fill="white"/>
+<text x="24" y="28" font-family="Arial" font-size="20" font-weight="700">eICU: quality of probabilistic hospital choice</text>
+<line x1="190.0" y1="37" x2="190.0" y2="335" stroke="#dddddd" stroke-width="1"/>
+<text x="180.0" y="360" font-family="Arial" font-size="12" fill="#555">0.0</text>
+<line x1="294.0" y1="37" x2="294.0" y2="335" stroke="#dddddd" stroke-width="1"/>
+<text x="284.0" y="360" font-family="Arial" font-size="12" fill="#555">0.2</text>
+<line x1="398.0" y1="37" x2="398.0" y2="335" stroke="#dddddd" stroke-width="1"/>
+<text x="388.0" y="360" font-family="Arial" font-size="12" fill="#555">0.4</text>
+<line x1="502.0" y1="37" x2="502.0" y2="335" stroke="#dddddd" stroke-width="1"/>
+<text x="492.0" y="360" font-family="Arial" font-size="12" fill="#555">0.6</text>
+<line x1="606.0" y1="37" x2="606.0" y2="335" stroke="#dddddd" stroke-width="1"/>
+<text x="596.0" y="360" font-family="Arial" font-size="12" fill="#555">0.8</text>
+<line x1="710.0" y1="37" x2="710.0" y2="335" stroke="#dddddd" stroke-width="1"/>
+<text x="700.0" y="360" font-family="Arial" font-size="12" fill="#555">1.0</text>
+<text x="24" y="64" font-family="Arial" font-size="13" fill="#222">conditional_logit_train</text>
+<rect x="190" y="45" width="146.4" height="10" fill="#2f6db3" opacity="0.88"/>
+<text x="342.4" y="54" font-family="Arial" font-size="11" fill="#333">0.281</text>
+<rect x="190" y="58" width="327.6" height="10" fill="#3d9b6d" opacity="0.88"/>
+<text x="523.6" y="67" font-family="Arial" font-size="11" fill="#333">0.630</text>
+<rect x="190" y="71" width="228.6" height="10" fill="#c76b3a" opacity="0.88"/>
+<text x="424.6" y="80" font-family="Arial" font-size="11" fill="#333">0.440</text>
+<text x="24" y="108" font-family="Arial" font-size="13" fill="#222">conditional_logit_test</text>
+<rect x="190" y="89" width="105.6" height="10" fill="#2f6db3" opacity="0.88"/>
+<text x="301.6" y="98" font-family="Arial" font-size="11" fill="#333">0.203</text>
+<rect x="190" y="102" width="269.6" height="10" fill="#3d9b6d" opacity="0.88"/>
+<text x="465.6" y="111" font-family="Arial" font-size="11" fill="#333">0.518</text>
+<rect x="190" y="115" width="183.7" height="10" fill="#c76b3a" opacity="0.88"/>
+<text x="379.7" y="124" font-family="Arial" font-size="11" fill="#333">0.353</text>
+<text x="24" y="152" font-family="Arial" font-size="13" fill="#222">conditional_logit_no_transport</text>
+<rect x="190" y="133" width="36.4" height="10" fill="#2f6db3" opacity="0.88"/>
+<text x="232.4" y="142" font-family="Arial" font-size="11" fill="#333">0.070</text>
+<rect x="190" y="146" width="96.7" height="10" fill="#3d9b6d" opacity="0.88"/>
+<text x="292.7" y="155" font-family="Arial" font-size="11" fill="#333">0.186</text>
+<rect x="190" y="159" width="74.0" height="10" fill="#c76b3a" opacity="0.88"/>
+<text x="270.0" y="168" font-family="Arial" font-size="11" fill="#333">0.142</text>
+<text x="24" y="196" font-family="Arial" font-size="13" fill="#222">conditional_logit_transport_only</text>
+<rect x="190" y="177" width="46.0" height="10" fill="#2f6db3" opacity="0.88"/>
+<text x="242.0" y="186" font-family="Arial" font-size="11" fill="#333">0.088</text>
+<rect x="190" y="190" width="163.3" height="10" fill="#3d9b6d" opacity="0.88"/>
+<text x="359.3" y="199" font-family="Arial" font-size="11" fill="#333">0.314</text>
+<rect x="190" y="203" width="110.8" height="10" fill="#c76b3a" opacity="0.88"/>
+<text x="306.8" y="212" font-family="Arial" font-size="11" fill="#333">0.213</text>
+<text x="24" y="240" font-family="Arial" font-size="13" fill="#222">conditional_logit_profile_only</text>
+<rect x="190" y="221" width="35.7" height="10" fill="#2f6db3" opacity="0.88"/>
+<text x="231.7" y="230" font-family="Arial" font-size="11" fill="#333">0.069</text>
+<rect x="190" y="234" width="97.4" height="10" fill="#3d9b6d" opacity="0.88"/>
+<text x="293.4" y="243" font-family="Arial" font-size="11" fill="#333">0.187</text>
+<rect x="190" y="247" width="72.6" height="10" fill="#c76b3a" opacity="0.88"/>
+<text x="268.6" y="256" font-family="Arial" font-size="11" fill="#333">0.140</text>
+<text x="24" y="284" font-family="Arial" font-size="13" fill="#222">conditional_logit_no_profile</text>
+<rect x="190" y="265" width="56.9" height="10" fill="#2f6db3" opacity="0.88"/>
+<text x="252.9" y="274" font-family="Arial" font-size="11" fill="#333">0.109</text>
+<rect x="190" y="278" width="179.1" height="10" fill="#3d9b6d" opacity="0.88"/>
+<text x="375.1" y="287" font-family="Arial" font-size="11" fill="#333">0.344</text>
+<rect x="190" y="291" width="121.5" height="10" fill="#c76b3a" opacity="0.88"/>
+<text x="317.5" y="300" font-family="Arial" font-size="11" fill="#333">0.234</text>
+<text x="24" y="328" font-family="Arial" font-size="13" fill="#222">baseline_popularity</text>
+<rect x="190" y="309" width="8.2" height="10" fill="#2f6db3" opacity="0.88"/>
+<text x="204.2" y="318" font-family="Arial" font-size="11" fill="#333">0.016</text>
+<rect x="190" y="322" width="30.2" height="10" fill="#3d9b6d" opacity="0.88"/>
+<text x="226.2" y="331" font-family="Arial" font-size="11" fill="#333">0.058</text>
+<rect x="190" y="335" width="27.2" height="10" fill="#c76b3a" opacity="0.88"/>
+<text x="223.2" y="344" font-family="Arial" font-size="11" fill="#333">0.052</text>
+<text x="24" y="372" font-family="Arial" font-size="13" fill="#222">baseline_nearest_synthetic</text>
+<rect x="190" y="353" width="46.6" height="10" fill="#2f6db3" opacity="0.88"/>
+<text x="242.6" y="362" font-family="Arial" font-size="11" fill="#333">0.090</text>
+<rect x="190" y="366" width="163.3" height="10" fill="#3d9b6d" opacity="0.88"/>
+<text x="359.3" y="375" font-family="Arial" font-size="11" fill="#333">0.314</text>
+<rect x="190" y="379" width="111.3" height="10" fill="#c76b3a" opacity="0.88"/>
+<text x="307.3" y="388" font-family="Arial" font-size="11" fill="#333">0.214</text>
+<text x="24" y="416" font-family="Arial" font-size="13" fill="#222">baseline_profile</text>
+<rect x="190" y="397" width="32.9" height="10" fill="#2f6db3" opacity="0.88"/>
+<text x="228.9" y="406" font-family="Arial" font-size="11" fill="#333">0.063</text>
+<rect x="190" y="410" width="84.4" height="10" fill="#3d9b6d" opacity="0.88"/>
+<text x="280.4" y="419" font-family="Arial" font-size="11" fill="#333">0.162</text>
+<rect x="190" y="423" width="68.2" height="10" fill="#c76b3a" opacity="0.88"/>
+<text x="264.2" y="432" font-family="Arial" font-size="11" fill="#333">0.131</text>
+<text x="24" y="460" font-family="Arial" font-size="13" fill="#222">baseline_quality_capacity</text>
+<rect x="190" y="441" width="2.1" height="10" fill="#2f6db3" opacity="0.88"/>
+<text x="198.1" y="450" font-family="Arial" font-size="11" fill="#333">0.004</text>
+<rect x="190" y="454" width="11.7" height="10" fill="#3d9b6d" opacity="0.88"/>
+<text x="207.7" y="463" font-family="Arial" font-size="11" fill="#333">0.022</text>
+<rect x="190" y="467" width="15.3" height="10" fill="#c76b3a" opacity="0.88"/>
+<text x="211.3" y="476" font-family="Arial" font-size="11" fill="#333">0.029</text>
+<text x="24" y="504" font-family="Arial" font-size="13" fill="#222">baseline_simple_rule</text>
+<rect x="190" y="485" width="57.6" height="10" fill="#2f6db3" opacity="0.88"/>
+<text x="253.6" y="494" font-family="Arial" font-size="11" fill="#333">0.111</text>
+<rect x="190" y="498" width="144.7" height="10" fill="#3d9b6d" opacity="0.88"/>
+<text x="340.7" y="507" font-family="Arial" font-size="11" fill="#333">0.278</text>
+<rect x="190" y="511" width="103.9" height="10" fill="#c76b3a" opacity="0.88"/>
+<text x="299.9" y="520" font-family="Arial" font-size="11" fill="#333">0.200</text>
+<rect x="685" y="48" width="14" height="10" fill="#2f6db3"/>
+<text x="707" y="58" font-family="Arial" font-size="12" fill="#333">Top-1</text>
+<rect x="685" y="70" width="14" height="10" fill="#3d9b6d"/>
+<text x="707" y="80" font-family="Arial" font-size="12" fill="#333">Top-5</text>
+<rect x="685" y="92" width="14" height="10" fill="#c76b3a"/>
+<text x="707" y="102" font-family="Arial" font-size="12" fill="#333">MRR</text>
+</svg>

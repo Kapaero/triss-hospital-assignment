@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="520" viewBox="0 0 1040 520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="24" y="30" font-family="Arial" font-size="20" font-weight="700">Model comparison by rank metrics</text>
+<line x1="260.0" y1="42" x2="260.0" y2="475" stroke="#dddddd"/>
+<text x="250.0" y="500" font-family="Arial" font-size="12" fill="#555">0.0</text>
+<line x1="380.0" y1="42" x2="380.0" y2="475" stroke="#dddddd"/>
+<text x="370.0" y="500" font-family="Arial" font-size="12" fill="#555">0.2</text>
+<line x1="500.0" y1="42" x2="500.0" y2="475" stroke="#dddddd"/>
+<text x="490.0" y="500" font-family="Arial" font-size="12" fill="#555">0.4</text>
+<line x1="620.0" y1="42" x2="620.0" y2="475" stroke="#dddddd"/>
+<text x="610.0" y="500" font-family="Arial" font-size="12" fill="#555">0.6</text>
+<line x1="740.0" y1="42" x2="740.0" y2="475" stroke="#dddddd"/>
+<text x="730.0" y="500" font-family="Arial" font-size="12" fill="#555">0.8</text>
+<line x1="860.0" y1="42" x2="860.0" y2="475" stroke="#dddddd"/>
+<text x="850.0" y="500" font-family="Arial" font-size="12" fill="#555">1.0</text>
+<text x="24" y="68" font-family="Arial" font-size="12" fill="#222">conditional_logit_test</text>
+<rect x="260" y="50" width="121.9" height="6" fill="#2d6cdf"/>
+<rect x="260" y="58" width="311.1" height="6" fill="#3a9b63"/>
+<rect x="260" y="66" width="406.9" height="6" fill="#c77730"/>
+<rect x="260" y="74" width="212.0" height="6" fill="#6a57b8"/>
+<text x="24" y="106" font-family="Arial" font-size="12" fill="#222">pair_mlp_test</text>
+<rect x="260" y="88" width="122.7" height="6" fill="#2d6cdf"/>
+<rect x="260" y="96" width="306.3" height="6" fill="#3a9b63"/>
+<rect x="260" y="104" width="399.7" height="6" fill="#c77730"/>
+<rect x="260" y="112" width="211.0" height="6" fill="#6a57b8"/>
+<text x="24" y="144" font-family="Arial" font-size="12" fill="#222">pair_mlp_hospital_bias_test</text>
+<rect x="260" y="126" width="122.7" height="6" fill="#2d6cdf"/>
+<rect x="260" y="134" width="305.5" height="6" fill="#3a9b63"/>
+<rect x="260" y="142" width="393.4" height="6" fill="#c77730"/>
+<rect x="260" y="150" width="211.6" height="6" fill="#6a57b8"/>
+<text x="24" y="182" font-family="Arial" font-size="12" fill="#222">temporal_lstm_choice_test</text>
+<rect x="260" y="164" width="120.3" height="6" fill="#2d6cdf"/>
+<rect x="260" y="172" width="301.6" height="6" fill="#3a9b63"/>
+<rect x="260" y="180" width="397.4" height="6" fill="#c77730"/>
+<rect x="260" y="188" width="209.8" height="6" fill="#6a57b8"/>
+<text x="24" y="220" font-family="Arial" font-size="12" fill="#222">baseline_popularity</text>
+<rect x="260" y="202" width="9.5" height="6" fill="#2d6cdf"/>
+<rect x="260" y="210" width="34.8" height="6" fill="#3a9b63"/>
+<rect x="260" y="218" width="61.7" height="6" fill="#c77730"/>
+<rect x="260" y="226" width="31.3" height="6" fill="#6a57b8"/>
+<text x="24" y="258" font-family="Arial" font-size="12" fill="#222">baseline_nearest_synthetic</text>
+<rect x="260" y="240" width="53.8" height="6" fill="#2d6cdf"/>
+<rect x="260" y="248" width="188.4" height="6" fill="#3a9b63"/>
+<rect x="260" y="256" width="299.2" height="6" fill="#c77730"/>
+<rect x="260" y="264" width="128.4" height="6" fill="#6a57b8"/>
+<text x="24" y="296" font-family="Arial" font-size="12" fill="#222">baseline_profile</text>
+<rect x="260" y="278" width="38.0" height="6" fill="#2d6cdf"/>
+<rect x="260" y="286" width="97.4" height="6" fill="#3a9b63"/>
+<rect x="260" y="294" width="146.4" height="6" fill="#c77730"/>
+<rect x="260" y="302" width="78.7" height="6" fill="#6a57b8"/>
+<text x="24" y="334" font-family="Arial" font-size="12" fill="#222">baseline_quality_capacity</text>
+<rect x="260" y="316" width="2.4" height="6" fill="#2d6cdf"/>
+<rect x="260" y="324" width="13.5" height="6" fill="#3a9b63"/>
+<rect x="260" y="332" width="30.1" height="6" fill="#c77730"/>
+<rect x="260" y="340" width="17.7" height="6" fill="#6a57b8"/>
+<text x="24" y="372" font-family="Arial" font-size="12" fill="#222">baseline_simple_rule</text>
+<rect x="260" y="354" width="66.5" height="6" fill="#2d6cdf"/>
+<rect x="260" y="362" width="167.0" height="6" fill="#3a9b63"/>
+<rect x="260" y="370" width="220.1" height="6" fill="#c77730"/>
+<rect x="260" y="378" width="119.8" height="6" fill="#6a57b8"/>
+<rect x="870" y="45" width="14" height="8" fill="#2d6cdf"/>
+<text x="890" y="56" font-family="Arial" font-size="12">top1_accuracy</text>
+<rect x="870" y="67" width="14" height="8" fill="#3a9b63"/>
+<text x="890" y="78" font-family="Arial" font-size="12">top5_accuracy</text>
+<rect x="870" y="89" width="14" height="8" fill="#c77730"/>
+<text x="890" y="100" font-family="Arial" font-size="12">top10_accuracy</text>
+<rect x="870" y="111" width="14" height="8" fill="#6a57b8"/>
+<text x="890" y="122" font-family="Arial" font-size="12">mean_reciprocal_rank</text>
+</svg>
